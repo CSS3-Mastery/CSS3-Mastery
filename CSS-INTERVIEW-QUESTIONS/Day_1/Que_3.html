@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!--============== This is meta tag for charset of your site ============-->
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- This is meta tag for viewport of your site (which width you want like phone size, laptop size, etc.) -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--============== This is meta tag for keywords of your site ============-->
+
+    <meta name="keywords" content="How to use CSS">
+
+    <!--======= This is your website Title =========-->
+    <title>Use CSS</title>
+
+    <!-- External CSS: Requires the <link> element placed inside the head section of an HTML file. -->
+    
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Internal CSS: Requires the <style> element placed inside the head section of an HTML file. -->
+
+    <style>
+        h1{
+            font-family: serif;
+            text-shadow: 2px 2px black;
+            text-align: center;
+            
+        }
+        .container{
+            
+            padding: 15px;
+            margin: 10px;
+            display: flex;
+        }
+        
+        .col{  
+            border: 3px solid black;          
+            margin: 10px;
+            background-color: gainsboro;
+        }
+        h2{
+            text-align: center;
+            font-size: 28px;
+            color: rgb(6, 6, 54);
+        }
+        ol{
+            font-size: 20px;
+            line-height: 40px;
+        }
+        .hr{
+            background-color: #ef1515;
+            height: 3px;width: 90%;
+        }
+        @media screen and (max-width:824px) {
+           .container{        
+             display: block;
+           } 
+        }
+    </style>    
+</head>
+<body>
+    <!-- Inline CSS: Requires the style attribute placed inside an HTML element. -->
+    
+    <h1 class="que_1" style="color: #fff;">3. What is the difference between padding and margin?</h1>
+    
+    <div class="container">
+        
+            <div class="col">
+                <h2>Padding</h2> <hr class="hr" />
+                <ol>
+                    <li>Padding is the space between an element's content and its border.</li>
+                    <li>It is used to create space inside an element.</li>
+                    <li>All sides at once using the shorthand property "padding".</li>
+                </ol>
+            </div>
+            <div class="col">
+                <h2>Margin</h2> <hr class="hr" />
+                <ol>
+                    <li>Margin is the space between an element's border and the adjacent elements.</li>
+                    <li>It is used to create space outside an element.</li>
+                    <li>All sides at once using the shorthand property "margin".</li>
+                </ol>
+            </div>
+        
+    </div>
+    
+</body>
+</html>
