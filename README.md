@@ -19,8 +19,8 @@
 </tr>
  <tr>   
    <td>2. What is css box model?</td>
-   <td><a href="https://www.geeksforgeeks.org/css-box-model/">click</a></td>  
-   <td><a href="#">Preview</a></td>
+   <td><a href="https://github.com/CSS3-Mastery/CSS3-Mastery/blob/main/CSS-INTERVIEW-QUESTIONS/Day_1/Que_2.html">Code</a></td>  
+   <td><a href="https://css3-mastery.github.io/CSS3-Mastery/CSS-INTERVIEW-QUESTIONS/Day_1/Que_2.html">Preview</a></td>
  </tr>
  <tr>   
    <td>3. What is the difference between padding and margin?</td>
