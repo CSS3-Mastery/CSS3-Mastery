@@ -1,7 +1,6 @@
-<h1 align="center">CSS3-Mastery</h1>
 
 
-<h2>1. CSS-INTERVIEW-QUESTIONS: </h2>
+<h2 align="center">1. CSS-INTERVIEW-QUESTIONS: </h2>
 
 <table border="3px" align="center">
 
