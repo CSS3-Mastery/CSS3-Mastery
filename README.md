@@ -111,10 +111,9 @@ with a button below it.</td>
 
 
 
-
+&copy; 2023 GitHub &bull; [Ajay-Dhangar](https://github.com/Ajay-Dhangar) &bull; [CC-BY-4.0 License](#)
 
 <div align="center">Made with ❤️ by <a href="https://ajay-dhangar.github.io/Responsive-portfolio-website.github.io/#home" target="_blank">Ajay-Dhangar</a></div>
 
 
 
-&copy; 2022 GitHub &bull; [Ajay-Dhangar](https://github.com/Ajay-Dhangar) &bull; [CC-BY-4.0 License](#)
