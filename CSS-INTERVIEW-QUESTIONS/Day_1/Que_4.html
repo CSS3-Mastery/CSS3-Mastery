@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--============== This is meta tag for charset of your site ============-->
 
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- This is meta tag for viewport of your site (which width you want like phone size, laptop size, etc.) -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--============== This is meta tag for keywords of your site ============-->
+
+    <meta name="keywords" content="How to use CSS" />
+
+    <!--======= This is your website Title =========-->
+    <title>padding VS margin</title>
+
+    <!-- External CSS: Requires the <link> element placed inside the head section of an HTML file. -->
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- Internal CSS: Requires the <style> element placed inside the head section of an HTML file. -->
+
+    <style>
+      h1 {
+        font-family: serif;
+        text-shadow: 1px 1px rgb(76, 19, 100);
+        text-align: center;
+      }
+      .first {
+        font-size: 22px;
+        margin: 20px;
+        font-family: serif;
+        font-style: italic;
+      }
+      .container {
+        padding: 15px;
+        margin: 10px;
+        display: flex;
+      }
+
+      .col {
+        border: 3px solid black;
+        margin: 10px;
+        background-color: gainsboro;
+      }
+      h2 {
+        text-align: center;
+        font-size: 28px;
+        color: rgb(6, 6, 54);
+      }
+      ol {
+        font-size: 20px;
+        line-height: 40px;
+      }
+      .hr {
+        background-color: #ef1515;
+        height: 3px;
+        width: 90%;
+      }
+      @media screen and (max-width: 824px) {
+        .container {
+          display: block;
+        }
+      }
+      .container-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .container-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .child {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Inline CSS: Requires the style attribute placed inside an HTML element. -->
+
+    <h1 style="color: #148931">4. Difference between flex row and column</h1>
+
+    <p class="first">
+      Flexbox is a layout module in CSS that allows you to create flexible and
+      responsive layouts with ease. The main difference between flex row and
+      column is the direction in which the elements inside the flex container
+      are arranged.
+    </p>
+    <div class="container">
+      <div class="col">
+        <h2>Flex row</h2>
+        <hr class="hr" />
+        <ol>
+          <li>
+            When the flex container is set to display as a row, the elements
+            inside it are arranged horizontally.
+          </li>
+          <li>
+            This means that the main axis of the container is horizontal, and
+            the cross axis is vertical.
+          </li>
+          <li>In other words, the elements are positioned side-by-side.</li>
+        </ol>
+      </div>
+      <div class="col">
+        <h2>Flex column</h2>
+        <hr class="hr" />
+        <ol>
+          <li>
+            When the flex container is set to display as a column, the elements
+            inside it are arranged vertically.
+          </li>
+          <li>
+            This means that the main axis of the container is vertical, and the
+            cross axis is horizontal.
+          </li>
+          <li>
+            In other words, the elements are positioned on top of each other.
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <p style="font-size: 22px; font-weight: bold; font-family: serif">
+      For Example:
+    </p>
+
+    <div class="container-1">
+      <div class="child">Child 1</div>
+      <div class="child">Child 2</div>
+      <div class="child">Child 3</div>
+      <div class="child">Child 4</div>
+    </div>
+    <hr>
+    <div class="container-2">
+      <div class="child">Child 1</div>
+      <div class="child">Child 2</div>
+      <div class="child">Child 3</div>
+      <div class="child">Child 4</div>
+    </div>
+  </body>
+</html>
