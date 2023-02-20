@@ -1,5 +1,27 @@
 # CSS3-Mastery
 
+# CSS-INTERVIEW-QUEstions:
+<table>
+ <tr>
+   <th>Day </th>
+   <th>Questions </th>
+   <th>Link</th>   
+ </tr>
+ <tr>
+   <td rowspan="7">Day 1 </td>
+   <td>1. Explain inline , internal and external stylesheet</td>
+   <td>Day 2</td>
+   
+ </tr>
+ <tr>
+   
+   <td>2. What is css box model?</td>
+   <td>Day 2</td>
+   
+ </tr>
+</table>
+
+
 ## Day 1
 
 1. Explain inline , internal and external stylesheet
