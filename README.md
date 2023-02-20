@@ -19,19 +19,19 @@
  </tr>
  <tr>   
    <td>2. What is css box model?</td>
-   <td><a href="#">click</a></td>   
+   <td><a href="https://www.geeksforgeeks.org/css-box-model/">click</a></td>   
  </tr>
  <tr>   
    <td>3. What is the difference between padding and margin?</td>
-   <td><a href="#">click</a></td>   
+   <td><a href="https://mailchimp.com/resources/padding-vs-margin/#:~:text=Padding%20represents%20the%20amount%20of,whitespace%20available%20surrounding%20an%20element.">click</a></td>   
  </tr>
  <tr>   
    <td>4. Difference between flex row and column</td>
-   <td><a href="#">click</a></td>   
+   <td><a href="https://getbootstrap.com/docs/5.0/utilities/flex/#:~:text=Use%20.flex%2Drow%20to%20set,direction%20from%20the%20opposite%20side.&text=Use%20.flex%2Dcolumn%20to%20set,direction%20from%20the%20opposite%20side.">click</a></td>   
  </tr>
  <tr>   
    <td>5. Justify-content allows you to do what?</td>
-   <td><a href="#">click</a></td>   
+   <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content">click</a></td>   
  </tr>
  <tr>   
    <td>6. Difference between absolute and relative positioning</td>
