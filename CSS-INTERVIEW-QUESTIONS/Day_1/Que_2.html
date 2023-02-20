@@ -1,40 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
+  <head>
     <!--============== This is meta tag for charset of your site ============-->
 
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- This is meta tag for viewport of your site (which width you want like phone size, laptop size, etc.) -->
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--============== This is meta tag for keywords of your site ============-->
 
-    <meta name="keywords" content="How to use CSS">
+    <meta name="keywords" content="How to use CSS Box model" />
 
     <!--======= This is your website Title =========-->
     <title>Box model</title>
 
     <!-- External CSS: Requires the <link> element placed inside the head section of an HTML file. -->
-    
-    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" href="../css/style.css" />
 
     <!-- Internal CSS: Requires the <style> element placed inside the head section of an HTML file. -->
 
     <style>
-        h1{
-            font-family: serif;
-            text-shadow: 2px 2px black;
-        }
-    </style>    
-</head>
-<body>
+      h1 {
+        font-family: serif;
+        text-shadow: 2px 2px black;
+      }
+
+      .container{
+        background-color: gainsboro;
+        border: 2px solid rgb(90, 21, 142);
+        padding-left: 20px;
+        margin: 20px;
+        text-align: center;
+      }
+      .b_m{
+        font-size: 22px;
+      }
+    </style>
+  </head>
+  <body>
     <!-- Inline CSS: Requires the style attribute placed inside an HTML element. -->
-    
-    <h1 style="color: #fff;">2. What is css box model?</h1>
-</body>
+
+    <h1 class="que_1" style="color: #fff">2. What is css box model?</h1>
+
+    <p class="b_m"><Strong>Box Model:</Strong>We can use this some properties like margin, padding, border, etc. </p>
+    <div class="container">
+      <h2>My Box 1</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis assumenda
+        eum amet, laborum at aut. Est unde cupiditate pariatur magni omnis
+        assumenda ratione.
+      </p>
+    </div>
+    <div class="container">
+      <h2>My Box 2</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis assumenda
+        eum amet, laborum at aut. Est unde cupiditate pariatur magni omnis
+        assumenda ratione.
+      </p>
+    </div>
+    <div class="container">
+      <h2>My Box 3</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis assumenda
+        eum amet, laborum at aut. Est unde cupiditate pariatur magni omnis
+        assumenda ratione.
+      </p>
+    </div>
+  </body>
 </html>
