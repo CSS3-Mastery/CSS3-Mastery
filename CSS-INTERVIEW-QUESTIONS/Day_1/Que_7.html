@@ -1,53 +1,80 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
+  <head>
     <!--============== This is meta tag for charset of your site ============-->
 
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- This is meta tag for viewport of your site (which width you want like phone size, laptop size, etc.) -->
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--============== This is meta tag for keywords of your site ============-->
 
-    <meta name="keywords" content="How to use CSS">
+    <meta name="keywords" content="How to use CSS" />
 
     <!--======= This is your website Title =========-->
     <title>Use CSS</title>
 
     <!-- External CSS: Requires the <link> element placed inside the head section of an HTML file. -->
-    
-    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" href="../css/style.css" />
 
     <!-- Internal CSS: Requires the <style> element placed inside the head section of an HTML file. -->
 
     <style>
-        h1{
-            font-family: serif;
-            text-shadow: 2px 2px black;
-        }
-        p{
-            font-size: 22px;
-            font-family: serif;
-            color: rgb(111, 101, 101);
-        }
-        strong{
-            color: blue;
-        }
-    </style>    
-</head>
-<body>
+      h1 {
+        font-family: serif;
+        text-shadow: 2px 2px black;
+      }
+      .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #ccc;
+        width: 100%;
+        height: 100px;
+        z-index: 1; /* lower z-index */
+      }
+
+      .navigation {
+        position: absolute;
+        top: 60px; /* position below header */
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        height: 5%;
+        z-index: 2; /* higher z-index */margin-top: 10px;
+      }
+
+      .navigation ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .navigation li {
+        display: inline-block;
+        margin: 0 10px;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
     <!-- Inline CSS: Requires the style attribute placed inside an HTML element. -->
-    
-    <h1 class="que_1" style="color: #fff;">1. Explain inline , internal and external stylesheet</h1>
-    
-    <p><strong>Inline CSS:</strong> Requires the style attribute placed inside an HTML element.</p>
-    <p><strong>Internal CSS:</strong> Requires the &lt;style&gt; element placed inside the head section of an HTML file.</p>
-    <p><strong>External CSS:</strong> Requires the &lt;link&gt; element placed inside the head section of an HTML file.</p>
-</body>
+
+    <header class="header">
+      <h1 style="color: #fff">7. What is the z-index in CSS?</h1>
+    </header>
+
+    <nav class="navigation">
+      <ul>
+        <li>Menu Item 1</li>
+        <li>Menu Item 2</li>
+        <li>Menu Item 3</li>
+      </ul>
+    </nav>
+  </body>
 </html>
