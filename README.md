@@ -24,13 +24,13 @@
  </tr>
  <tr>   
    <td>3. What is the difference between padding and margin?</td>
-   <td><a href="https://mailchimp.com/resources/padding-vs-margin/#:~:text=Padding%20represents%20the%20amount%20of,whitespace%20available%20surrounding%20an%20element.">click</a></td>  
-   <td><a href="#">Preview</a></td>
+   <td><a href="https://github.com/CSS3-Mastery/CSS3-Mastery/blob/main/CSS-INTERVIEW-QUESTIONS/Day_1/Que_3.html">Code</a></td>  
+   <td><a href="https://css3-mastery.github.io/CSS3-Mastery/CSS-INTERVIEW-QUESTIONS/Day_1/Que_3.html">Preview</a></td>
  </tr>
  <tr>   
    <td>4. Difference between flex row and column</td>
-   <td><a href="https://getbootstrap.com/docs/5.0/utilities/flex/#:~:text=Use%20.flex%2Drow%20to%20set,direction%20from%20the%20opposite%20side.&text=Use%20.flex%2Dcolumn%20to%20set,direction%20from%20the%20opposite%20side.">click</a></td>   
-   <td><a href="#">Preview</a></td>
+   <td><a href="https://github.com/CSS3-Mastery/CSS3-Mastery/blob/main/CSS-INTERVIEW-QUESTIONS/Day_1/Que_4.html">Code</a></td>   
+   <td><a href="https://css3-mastery.github.io/CSS3-Mastery/CSS-INTERVIEW-QUESTIONS/Day_1/Que_4.html">Preview</a></td>
  </tr>
  <tr>   
    <td>5. Justify-content allows you to do what?</td>
