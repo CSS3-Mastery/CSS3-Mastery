@@ -24,12 +24,12 @@
  </tr>
  <tr>   
    <td>3. What is the difference between padding and margin?</td>
-   <td><a href="https://github.com/CSS3-Mastery/CSS3-Mastery/blob/main/CSS-INTERVIEW-QUESTIONS/Day_1/Que_3.html">click</a></td>  
+   <td><a href="https://github.com/CSS3-Mastery/CSS3-Mastery/blob/main/CSS-INTERVIEW-QUESTIONS/Day_1/Que_3.html">Code</a></td>  
    <td><a href="https://css3-mastery.github.io/CSS3-Mastery/CSS-INTERVIEW-QUESTIONS/Day_1/Que_3.html">Preview</a></td>
  </tr>
  <tr>   
    <td>4. Difference between flex row and column</td>
-   <td><a href="https://github.com/CSS3-Mastery/CSS3-Mastery/blob/main/CSS-INTERVIEW-QUESTIONS/Day_1/Que_4.html">click</a></td>   
+   <td><a href="https://github.com/CSS3-Mastery/CSS3-Mastery/blob/main/CSS-INTERVIEW-QUESTIONS/Day_1/Que_4.html">Code</a></td>   
    <td><a href="https://css3-mastery.github.io/CSS3-Mastery/CSS-INTERVIEW-QUESTIONS/Day_1/Que_4.html">Preview</a></td>
  </tr>
  <tr>   
