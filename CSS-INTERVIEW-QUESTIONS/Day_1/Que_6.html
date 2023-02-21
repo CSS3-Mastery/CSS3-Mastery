@@ -5,41 +5,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Difference between absolute and relative positioning">
     <title>Document</title>
     <style>
         .container{
-           width: 400px;
-           height: 400px;
+           width: 200px;
+           height: 250px;
            background-color: rgb(116, 85, 85);
-           position: relative;
-           top: 50px;
-           left: 100px;
+           margin: 20px;
         }
+        
         .first{
-            position: relative;
-            top: 10px;
-            left: 20px;
             width: 100px;
             height: 100px;
             background-color: red;
+            margin: 10px;
         }
-        .second{
-            position: absolute;
-            top: 14px;
-            left: 25px;
-            width: 90px;
-            height: 90px;
+        .second{            
+            width: 100px;
+            height: 100px;
             background-color: rgb(75, 21, 149);
+            margin: 10px;
+        }
+        #i-first{
+            position: relative;
+            top: 20px;
+            left: 25px;
+        }
+        #i-second{            
+            position: absolute;
+            top: 100px;
+            left: 40px;
+        }
+        #ii-first{
+            position: relative;
+            top: 20px;
+            left: 25px;
+        }
+        #ii-second{            
+            position: relative;
+            top: 20px;
+            left: 25px;
+        }
+        .difference{
+            display: flex;
+            border: 2px solid black;
+            background-color: burlywood;
+            
+        }
+        h2{
+            text-align: center;
+        }
+        .absolute{
+            width: 50%;
+            border: 1px solid blue;
+        }
+        .relative{
+            width: 50%;
+            border: 1px solid blue;
+        }
+        ol{
+            font-size: 20px;
+            line-height: 40px;
         }
     </style>
 </head>
 <body>
-    <h1>
-        6. Difference between absolute and relative positioning
-    </h1>
+    <h1>6. Difference between absolute and relative positioning.</h1>
+    
     <div class="container">
-        <div class="first"></div>
-        <div class="second"></div>
+        <div class="first" id="i-first"></div>
+        <div class="second"  id="i-second"></div>
+    </div>
+    <div class="container">
+        <div class="first" id="ii-first"></div>
+        <div class="second" id="ii-second"></div>
+    </div>
+
+    <div class="difference">
+        <div class="absolute">
+            <h2>Absolute</h2>
+            <hr>
+            <ol>
+                <li>Position is relative to the nearest positioned ancestor element (with a position property of relative, absolute, or fixed).</li>
+                <li>The element is removed from the normal document flow, and other elements no longer flow around it.</li>
+                <li>The element's position is determined by the values of the top, right, bottom, and left properties, which are relative to the closest positioned ancestor.</li>
+                <li>If there is no positioned ancestor, the element will be positioned relative to the body element.</li>
+                <li>The element's size and position may need to be explicitly defined.</li>
+            </ol>
+        </div>
+        <div class="relative">
+            <h2>Relative</h2>
+            <hr>
+            <ol>
+                <li>Position is relative to the element's normal position in the document flow.</li>
+                <li>The element still takes up space in the normal document flow.</li>
+                <li>Other elements will flow around the relatively positioned element as if it were still in its original position.</li>
+                <li>Position is defined using the top, right, bottom, and left properties.</li>
+                <li>Element's position can be adjusted by changing the values of the top, right, bottom, and left properties.</li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>
