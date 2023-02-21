@@ -1,1 +1,142 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!--============== This is meta tag for charset of your site ============-->
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- This is meta tag for viewport of your site (which width you want like phone size, laptop size, etc.) -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--============== This is meta tag for keywords of your site ============-->
+
+    <meta name="keywords" content="How to use CSS">
+
+    <!--======= This is your website Title =========-->
+    <title>Justify-content</title>
+
+    <!-- External CSS: Requires the <link> element placed inside the head section of an HTML file. -->
+    
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Internal CSS: Requires the <style> element placed inside the head section of an HTML file. -->
+
+    <style>
+        h1{
+            font-family: serif;
+            text-shadow: 2px 2px black;
+            background-color: rgba(237, 69, 3, 0.962);
+            color: #fff;
+            width: 50%;            
+            border: 2px solid black;
+            margin-left: 25%;
+            text-align: center;
+            height: 5%;
+            box-shadow: 2px 2px rgb(61, 61, 63);
+        }
+         .main{
+            border: 3px solid black;
+            padding: 10px;
+            padding-left: 25%;
+            box-sizing: border-box;
+            background-color: gainsboro;
+         }
+        .container{
+            border: 3px solid red;
+            background-color: black;
+            color: #fff;
+            display: flex;            
+            width: 50%;
+            height: 200px; 
+        }
+        .justify-content-1{
+            justify-content: center;
+        }
+        .justify-content-2{
+            justify-content: space-between;
+        }
+        .justify-content-3{
+            justify-content: space-around;
+        }
+        .justify-content-4{
+            justify-content: space-evenly;
+        }
+        .div{
+            width: 20%;
+            height: 90px;
+            background-color: red;
+            position: relative;
+            top: 50px;
+            text-align: center;
+            padding-top: 2px;
+        }
+        p{
+            font-size: 22px;
+        }
+        
+    </style>    
+</head>
+<body>
+    <!-- Inline CSS: Requires the style attribute placed inside an HTML element. -->
+    
+    <h1 class="que_5_h1">Justify-content allows you to do what?</h1>
+    <hr>
+    <div class="main">
+        
+    <p>1. justify-content: center;</p>
+    <div class="container justify-content-1">
+        <div class="div">item-1</div>
+        <div class="div">item-2</div>
+        <div class="div">item-3</div>
+        <div class="div">item-4</div>
+    </div>
+    <br>
+    <p>2. justify-content: space-between;</p>
+
+    <div class="container justify-content-2">
+        <div class="div">item-1</div>
+        <div class="div">item-2</div>
+        <div class="div">item-3</div>
+        <div class="div">item-4</div>
+    </div>
+    <br>
+    <p>3. justify-content: space-around;</p>
+    <div class="container justify-content-3">
+        <div class="div">item-1</div>
+        <div class="div">item-2</div>
+        <div class="div">item-3</div>
+        <div class="div">item-4</div>
+    </div>
+    <br><p>4. justify-content: space-evenly;</p>
+    <div class="container justify-content-4">
+        <div class="div">item-1</div>
+        <div class="div">item-2</div>
+        <div class="div">item-3</div>
+        <div class="div">item-4</div>
+    </div>
+    <div >
+        <p>More Examples:</p>
+        
+        <ol style="font-size: 20px; line-height: 30px; font-family: serif; color: red;">
+            <li>justify-content: baseline;</li>
+            <li>justify-content: end;</li>
+            <li>justify-content: first baseline;</li>
+            <li>justify-content: flex-end;</li>
+            <li>justify-content: flex-start;</li>
+            <li>justify-content: last baseline;</li>
+            <li>justify-content: left;</li>
+            <li>justify-content: right;</li>
+            <li>justify-content: safe;</li>
+            <li>justify-content: stretch;</li>
+            <li>justify-content: start;</li>
+            
+        </ol>
+    </div>
+    </div>
+</body>
+</html>
