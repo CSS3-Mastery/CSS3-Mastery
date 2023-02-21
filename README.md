@@ -34,18 +34,18 @@
  </tr>
  <tr>   
    <td>5. Justify-content allows you to do what?</td>
-   <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content">click</a></td>   
-   <td><a href="#">Preview</a></td>
+   <td><a href="https://github.com/CSS3-Mastery/CSS3-Mastery/blob/main/CSS-INTERVIEW-QUESTIONS/Day_1/Que_5.html">Code</a></td>   
+   <td><a href="https://css3-mastery.github.io/CSS3-Mastery/CSS-INTERVIEW-QUESTIONS/Day_1/Que_5.html">Preview</a></td>
  </tr>
  <tr>   
    <td>6. Difference between absolute and relative positioning</td>
-   <td><a href="#">click</a></td>   
-   <td><a href="#">Preview</a></td>
+   <td><a href="https://github.com/CSS3-Mastery/CSS3-Mastery/blob/main/CSS-INTERVIEW-QUESTIONS/Day_1/Que_6.html">Code</a></td>   
+   <td><a href="https://css3-mastery.github.io/CSS3-Mastery/CSS-INTERVIEW-QUESTIONS/Day_1/Que_6.html">Preview</a></td>
  </tr>
  <tr>   
    <td>7. What is the z-index in CSS?</td>
-   <td><a href="#">click</a></td>   
-   <td><a href="#">Preview</a></td>
+   <td><a href="https://github.com/CSS3-Mastery/CSS3-Mastery/blob/main/CSS-INTERVIEW-QUESTIONS/Day_1/Que_7.html">Code</a></td>   
+   <td><a href="https://css3-mastery.github.io/CSS3-Mastery/CSS-INTERVIEW-QUESTIONS/Day_1/Que_7.html">Preview</a></td>
  </tr>
  
  <!-- ============ Day 2 =============== -->
