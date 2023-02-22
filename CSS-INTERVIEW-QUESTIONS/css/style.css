@@ -1,3 +1,36 @@
 .que_1 {
   background-color: orange;
 }
+.contain {
+  display: flex;
+}
+.back {
+  text-decoration: none;
+  font-size: 22px;
+  border: 1px solid #fff;
+  background-color: rgb(109, 151, 68);
+  color: #fff;
+  margin-left: 15%;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+}
+.next {
+  text-decoration: none;
+  font-size: 22px;
+  border: 1px solid #fff;
+  background-color: rgb(109, 151, 68);
+  color: #fff;
+  margin-left: 50%;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+}
+.back:hover {
+  background-color: black;
+}
+.next:hover {
+  background-color: rgb(245, 11, 11);
+}
