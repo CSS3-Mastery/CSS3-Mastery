@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="What is animation delay?">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>animation delay?</title>
+    <link rel="stylesheet" href="../css/style.css">
     <style>
-        div{
+        h1{
+            text-align: center;
+            background-color: blueviolet;
+            color: #fff;
+            text-shadow: 2px 2px black;
+        }
+        p{
+            font-size: 18px;
+            line-height: 40px;
+            margin: 10px;
+        }
+        .ex{
             width: 100px;
             height: 100px;
             background-color: red;
@@ -21,9 +34,55 @@
                 margin-left: 200px;
             }
         }
+        pre{
+            font-size: 16px;            
+            background-color: darkslategrey;
+            color: #fff;
+            padding: 10px;
+        }
+        .pre-1{
+            height: 50px;
+            width: 200px;
+            padding-top: 20px;
+        }
     </style>
 </head>
 <body>
-    <div></div>
+    <h1>2. What is animation delay?</h1>
+    <p>
+        Animation delay is a CSS property that allows you to specify a time period before an animation begins. It's often used to create staggered or sequenced animations, where different elements on a page start animating at different times.
+</p><p>
+Here's an example of how you can use the animation-delay property in your CSS:
+    </p>
+<h2>For example</h2>
+<p>HTML</p>
+<pre class="pre-1">
+    &lt;div&gt; &lt;/div&gt;
+</pre>
+<p>CSS</p>
+<pre class="pre-2">
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation: div 5s infinite;
+        animation-delay: 3s;
+    }
+    @keyframes div {
+        from{
+            margin-left: 0;
+        }
+        to{
+            margin-left: 200px;
+        }
+    }
+</pre>
+<h2>Output</h2>
+    <div class="ex"></div>
+<br>
+    <div class="contain">
+      <a href="../Day_7/Que_1.html" class="back">Back</a>
+      <a href="./Que_2.html" class="next">Next</a>
+    </div>
 </body>
 </html>

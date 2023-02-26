@@ -1,2 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--============== This is meta tag for charset of your site ============-->
 
+    <meta charset="UTF-8" />
 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- This is meta tag for viewport of your site (which width you want like phone size, laptop size, etc.) -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--============== This is meta tag for keywords of your site ============-->
+
+    <meta
+      name="keywords"
+      content="What is box sizing?"
+    />
+
+    <!--======= This is your website Title =========-->
+    <title>box sizing</title>
+
+    <!-- External CSS: Requires the <link> element placed inside the head section of an HTML file. -->
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- Internal CSS: Requires the <style> element placed inside the head section of an HTML file. -->
+
+    <style>
+      body {
+        background-color: aqua;
+      }
+      h1 {
+        font-family: serif;
+        text-shadow: 2px 2px black;
+        text-align: center;
+        background-color: blueviolet;
+      }
+      p {
+        font-size: 20px;
+        font-family: serif;
+        margin: 10px;
+      }
+      .p-1 {
+        background-color: rgb(255, 128, 0);
+        padding: 2px;
+      }
+      .p-2 {
+        background-color: #fff;
+        padding: 2px;
+        color: blue;
+      }
+      .p-3 {
+        background-color: rgb(23, 105, 23);
+        padding: 5px;
+        color: #fff;
+      }
+      strong {
+        color: rgb(2, 2, 16);
+      }
+      /* Default box-sizing mode: */
+      .content-box,
+      .border-box {
+        width: 160px;
+        height: 80px;
+        padding: 20px;
+        border: 8px solid red;
+        background: yellow;
+      }
+
+      .content-box {
+        box-sizing: content-box;
+        /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
+             Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
+             Content box width: 160px
+             Content box height: 80px */
+      }
+
+      .border-box {
+        box-sizing: border-box;
+        /* Total width: 160px
+             Total height: 80px
+             Content box width: 160px - (2 * 20px) - (2 * 8px) = 104px
+             Content box height: 80px - (2 * 20px) - (2 * 8px) = 24px */
+      }
+
+      pre {
+        border: 2px solid red;
+        padding: 4px;
+        width: 95%;
+        background-color: rgb(51, 47, 47);
+        color: #fff;
+        font-size: 14px;
+        overflow-x: auto;
+        line-height: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Inline CSS: Requires the style attribute placed inside an HTML element. -->
+
+    <h1 style="color: #fff">1. What is box sizing?</h1>
+
+    <p class="p-1">
+      Box-sizing is a CSS property that determines how the total width and
+      height of an element are calculated, including its content, padding, and
+      border. By default, the box-sizing property is set to content-box, which
+      means that the width and height of an element only include its content,
+      and any padding and border are added on top of that. <br />
+    </p>
+    <p class="p-2">
+      For example, suppose you have a <strong>&lt;div&gt;</strong> element with
+      a width of 300 pixels and a padding of 20 pixels on all sides. In the
+      default content-box mode, the total width of the element would be 340
+      pixels (300px for the content plus 20px padding on each side). If you add
+      a 1-pixel border to the element, the total width would become 342 pixels
+      (300px for the content plus 20px padding on each side plus 1px for the
+      left border and 1px for the right border). <br />
+    </p>
+    <p class="p-3">
+      However, if you set the box-sizing property to border-box, the width and
+      height of the element will include the content, padding, and border, so
+      the total width of the element in the above example would be 300 pixels
+      (the width of the content), and the padding and border would be included
+      within that width. This can be useful for ensuring that elements with
+      fixed dimensions will fit into a container without causing unexpected
+      layout issues.
+    </p>
+
+    <br />
+
+    <h2>For Example</h2>
+    <p>HTML</p>
+    <pre>
+    
+    &lt;div class="content-box"&gt;Content box&lt;/div&gt;
+    &lt;br /&gt;
+    &lt;div&gt; class="border-box"&gt;Border box &lt;/div&gt;    
+    
+</pre
+    >
+    <p>CSS</p>
+    <pre>
+   div {
+      width: 160px;
+      height: 80px;
+      padding: 20px;
+      border: 8px solid red;
+      background: yellow;
+    }
+    
+    .content-box {
+      box-sizing: content-box;
+      /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
+         Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
+         Content box width: 160px
+         Content box height: 80px */
+    }
+    
+    .border-box {
+      box-sizing: border-box;
+      /* Total width: 160px
+         Total height: 80px
+         Content box width: 160px - (2 * 20px) - (2 * 8px) = 104px
+         Content box height: 80px - (2 * 20px) - (2 * 8px) = 24px */
+    }
+           
+</pre
+    >
+
+    <h2>Output</h2>
+    <div class="content-box">Content box</div>
+    <br />
+    <div class="border-box">Border box</div>
+    <br />
+
+    <h2>More Syntax</h2>
+    <pre>
+    
+    box-sizing: border-box;
+    box-sizing: content-box;
+    
+    /* Global values */
+    box-sizing: inherit;
+    box-sizing: initial;
+    box-sizing: revert;
+    box-sizing: revert-layer;
+    box-sizing: unset;
+    
+    
+</pre
+    >
+
+    <div class="contain">
+      <a href="../Day_7/Que_1.html" class="back">Back</a>
+      <a href="./Que_2.html" class="next">Next</a>
+    </div>
+  </body>
+</html>
